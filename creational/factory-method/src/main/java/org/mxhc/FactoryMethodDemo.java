@@ -8,7 +8,7 @@ import org.mxhc.factory.WindowsDialog;
  * Demo class. Everything comes together here.
  * <a href="https://refactoring.guru/design-patterns/factory-method">...</a>
  */
-public class Main {
+public class FactoryMethodDemo {
     
     private static Dialog dialog;
     

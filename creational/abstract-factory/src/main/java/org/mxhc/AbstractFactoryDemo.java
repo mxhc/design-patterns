@@ -9,7 +9,7 @@ import org.mxhc.factories.WindowsFactory;
  * Demo class. Everything comes together here.
  * <a href="https://refactoring.guru/design-patterns/abstract-factory">...</a>
  */
-public class Demo {
+public class AbstractFactoryDemo {
     
     /**
      * Application picks the factory type and creates it in run time (usually at
