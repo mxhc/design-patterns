@@ -12,6 +12,7 @@
         <module>creational/factory-method</module>
         <module>creational/abstract-factory</module>
         <module>creational/builder</module>
+        <module>creational/prototype</module>
     </modules>
 
     <properties>
