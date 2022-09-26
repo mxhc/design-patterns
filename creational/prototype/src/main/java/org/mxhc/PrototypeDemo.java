@@ -7,6 +7,10 @@ import org.mxhc.shapes.Shape;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+* https://refactoring.guru/design-patterns/prototype
+*/
 public class PrototypeDemo {
     public static void main(String[] args) {
         List<Shape> shapes = new ArrayList<>();
