@@ -1,0 +1,29 @@
+package org.mxhc;
+
+import org.mxhc.decorators.CompressionDecorator;
+import org.mxhc.decorators.DataSource;
+import org.mxhc.decorators.DataSourceDecorator;
+import org.mxhc.decorators.EncryptionDecorator;
+import org.mxhc.decorators.FileDataSource;
+
+
+/*
+https://refactoring.guru/design-patterns/decorator
+*/
+public class DecoratorDemo {
+    public static void main(String[] args) {
+        String salaryRecords = "Name,Salary\nJohn Smith,100000\nSteven Jobs,912000";
+        
+        DataSourceDecorator encoded = new CompressionDecorator(new EncryptionDecorator(new FileDataSource("OutputDemo.txt")));
+        
+        encoded.writeData(salaryRecords);
+        DataSource plain = new FileDataSource("OutputDemo.txt");
+        
+        System.out.println("- Input ----------------");
+        System.out.println(salaryRecords);
+        System.out.println("- Encoded --------------");
+        System.out.println(plain.readData());
+        System.out.println("- Decoded --------------");
+        System.out.println(encoded.readData());
+    }
+}
