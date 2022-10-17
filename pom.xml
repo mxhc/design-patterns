@@ -20,6 +20,7 @@
         <module>structural/decorator</module>
         <module>structural/facade</module>
         <module>structural/Flyweight</module>
+        <module>structural/proxy</module>
     </modules>
 
     <properties>
