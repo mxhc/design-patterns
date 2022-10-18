@@ -22,6 +22,7 @@
         <module>structural/Flyweight</module>
         <module>structural/proxy</module>
         <module>behavioral/command</module>
+        <module>behavioral/chain-of-responsibility</module>
     </modules>
 
     <properties>
