@@ -21,6 +21,7 @@
         <module>structural/facade</module>
         <module>structural/Flyweight</module>
         <module>structural/proxy</module>
+        <module>behavioral/command</module>
     </modules>
 
     <properties>
