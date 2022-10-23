@@ -41,6 +41,6 @@ public class ChainOfResponsibilityDemo {
             System.out.print("Input password: ");
             String password = reader.readLine();
             success = server.logIn(email, password);
-        } while (!success);
+        } while (! success);
     }
 }
