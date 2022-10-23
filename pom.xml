@@ -24,6 +24,7 @@
         <module>behavioral/command</module>
         <module>behavioral/chain-of-responsibility</module>
         <module>behavioral/iterator</module>
+        <module>behavioral/mediator</module>
     </modules>
 
     <properties>
