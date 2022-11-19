@@ -29,6 +29,7 @@
         <module>behavioral/observer</module>
         <module>behavioral/state</module>
         <module>behavioral/strategy</module>
+        <module>behavioral/template-method</module>
     </modules>
 
     <properties>
